@@ -1,0 +1,11 @@
+project_token: 37f156929c40213fab1fe6b1
+name: crypto-preds
+jobs:
+  - job_id: 90a2e91d-ce52-4be3-9df7-e58d523bcb35
+    language: python
+    name: Main
+    entrypoint: main.py
+    resources:
+      limits:
+        cpu: 6
+        memory: 2Gi
